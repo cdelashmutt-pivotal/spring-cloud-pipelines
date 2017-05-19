@@ -35,4 +35,4 @@ concourse-worker:
 artifactory:
   image: jfrog-docker-registry.bintray.io/artifactory/artifactory-oss:latest
   ports:
-    - "8081:8081"
+    - "8082:8081"

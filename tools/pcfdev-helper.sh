@@ -6,10 +6,10 @@ function usage {
 }
 
 function pcfdev_login {
-	cf login -a https://api.local.pcfdev.io \
+	cf login -a https://api.cf.grogscave.net \
 		--skip-ssl-validation \
 		-u admin \
-		-p admin \
+		-p qpBDP4NIfWu_jeCE_flf-khaXyyxIK8g \
 		-o pcfdev-org \
 		-s pcfdev-test
 }
